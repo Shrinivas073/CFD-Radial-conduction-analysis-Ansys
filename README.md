@@ -62,15 +62,10 @@ This project serves as a foundational exercise in **heat transfer modelling, num
 
 - [💡 Key Learnings](#-key-learnings)
 
-- [🛠️ Skills Demonstrated](#️-skills-demonstrated)
-
 - [📂 Repository Structure](#-repository-structure)
 
 - [🚀 Future Improvements](#-future-improvements)
 
-- [📚 References](#-references)
-
-- [📄 License](#-license)
 
 ---
 
@@ -105,13 +100,6 @@ This project serves as a foundational exercise in **heat transfer modelling, num
 </p>
 
 ---
-
-## 📌 About This Repository
-
-This repository is part of my Computational Fluid Dynamics learning portfolio, where I document simulation projects with an emphasis on the underlying engineering principles rather than simply presenting software outputs.
-
-Each project is developed to strengthen my understanding of fluid mechanics, heat transfer, numerical methods, and engineering analysis while following professional documentation practices.
-
 
 # 🎯 Project Objectives
 
