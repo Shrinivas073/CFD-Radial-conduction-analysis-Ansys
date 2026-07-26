@@ -314,15 +314,15 @@ The simulation successfully captured the steady-state radial heat conduction thr
 
 ---
 
-## 📷 Temperature Contours
+## 📷 Temperature Vs Radial Wall Thickness
 
 <p align="center">
 
-<img src="Temperature contour.png" width="750">
+<img src="graph.png" width="750">
 
 </p>
 
-> **Figure 4:** Temperature distribution across the annular solid.
+> **Figure 4:** Graphical Representation of Temperature Vs Radial Wall Thickness.
 
 ---
 
