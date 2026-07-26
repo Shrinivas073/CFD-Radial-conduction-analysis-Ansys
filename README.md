@@ -196,7 +196,102 @@ The concepts explored in this project are directly applicable to:
 Mastering radial heat conduction through CFD provides a strong foundation for advanced simulations involving conjugate heat transfer, transient thermal analysis, and coupled fluid–thermal interactions.
 
 
+# 🧩 Geometry Creation
 
+The computational model represents a **2D annular solid domain** designed to investigate steady-state radial heat conduction through a hollow cylindrical structure.
+
+The geometry consists of two concentric circles forming an annulus, where the inner surface is maintained at a higher temperature than the outer surface. This simplified configuration accurately represents radial conduction while eliminating unnecessary geometric complexity.
+
+By adopting a two-dimensional planar model, the computational cost is significantly reduced without compromising the accuracy of the underlying conduction physics.
+
+---
+
+## 📐 Geometry Specifications
+
+| Parameter | Value |
+|-----------|------:|
+| Geometry Type | 2D Annular Solid Domain |
+| Inner Diameter | 0.5 m |
+| Outer Diameter | 1.0 m |
+| Analysis Type | 2D Steady-State |
+
+---
+
+## 📷 Geometry
+
+<p align="center">
+
+<img src="Images/Geometry.png" width="700">
+
+</p>
+
+> **Figure 1:** Computational geometry representing the annular solid domain used for radial heat conduction analysis.
+
+---
+
+# 🕸️ Mesh Generation
+
+The computational domain was discretized using a **structured quadrilateral mesh** to accurately resolve the temperature field while maintaining excellent numerical stability.
+
+Quadrilateral elements are generally preferred for structured thermal analyses because they provide improved numerical accuracy, lower discretization error, and smoother interpolation of temperature gradients compared to unstructured triangular meshes.
+
+A structured mesh also ensures a more uniform element distribution throughout the annular domain, allowing the solver to capture radial heat diffusion efficiently.
+
+---
+
+## 📊 Mesh Specifications
+
+| Parameter | Value |
+|-----------|------:|
+| Mesh Type | Structured Quadrilateral |
+| Number of Cells | 4,752 |
+| Number of Faces | 9,720 |
+| Number of Nodes | 4,968 |
+| Minimum Orthogonal Quality | 0.999 |
+| Maximum Aspect Ratio | 1.82 |
+
+---
+
+## 📷 Mesh
+
+<p align="center">
+
+<img src="Images/Mesh.png" width="700">
+
+</p>
+
+> **Figure 2:** Structured quadrilateral mesh generated for the computational domain.
+
+---
+
+# 📈 Mesh Quality Assessment
+
+The accuracy of any CFD simulation depends strongly on mesh quality. Poor-quality elements can introduce excessive numerical diffusion, reduce solution accuracy, and negatively affect convergence behaviour.
+
+The generated mesh demonstrates excellent quality, ensuring reliable numerical performance throughout the simulation.
+
+### Mesh Quality Evaluation
+
+| Quality Metric | Assessment |
+|---------------|-----------|
+| Orthogonal Quality | Excellent |
+| Aspect Ratio | Acceptable |
+| Element Distribution | Uniform |
+| Numerical Stability | High |
+
+The minimum orthogonal quality of **0.999** indicates an exceptionally well-constructed mesh with minimal geometric distortion. Likewise, the maximum aspect ratio of **1.82** falls well within acceptable engineering limits, ensuring accurate resolution of thermal gradients without compromising numerical stability.
+
+These quality indicators provide confidence that the numerical solution primarily reflects the governing physics rather than mesh-induced errors.
+
+---
+
+# 💡 Engineering Perspective
+
+Mesh generation is far more than simply dividing a geometry into smaller elements—it establishes the computational foundation upon which the governing equations are solved.
+
+A high-quality mesh minimizes numerical errors, enhances convergence, and ensures that temperature gradients are captured with greater fidelity. For steady-state conduction problems such as this, a structured quadrilateral mesh offers an effective balance between computational efficiency and solution accuracy.
+
+Consequently, the mesh developed for this study provides a robust framework for accurately predicting radial temperature distribution within the annular solid.
 
 
 
