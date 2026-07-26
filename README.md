@@ -32,6 +32,19 @@ This project serves as a foundational exercise in **heat transfer modelling, num
 
 ---
 
+
+## 📷 Repository Preview
+
+> **Replace the image below with your final project cover image or temperature contour.**
+
+<p align="center">
+
+<img src="Gallery/Graph.png" width="900">
+
+</p>
+
+---
+
 # 📑 Table of Contents
 
 - [📖 Repository Overview](#-repository-overview)
@@ -64,20 +77,6 @@ This project serves as a foundational exercise in **heat transfer modelling, num
 
 - [🚀 Future Improvements](#-future-improvements)
 
-
----
-
----
-
-## 📷 Repository Preview
-
-> **Replace the image below with your final project cover image or temperature contour.**
-
-<p align="center">
-
-<img src="Gallery/Graph.png" width="900">
-
-</p>
 
 ---
 
