@@ -382,25 +382,6 @@ The numerical results are consistent with the theoretical behaviour of radial he
 - Visualization of temperature gradients using CFD.
 ---
 
-# 📂 Repository Structure
-
-```text
-CFD-Radial-Heat-Transfer/
-│
-├── README.md
-├── .gitignore
-│
-├── Gallery/
-│   ├── Project_Cover.png
-│   ├── Geometry.png
-│   ├── Mesh.png
-│   ├── Temperature_Contour.png
-│   └── Residuals.png
-│
-└── Documentation/
-    └── Project_Report.pdf
-```
-
 ---
 
 # 🚀 Future Improvements
