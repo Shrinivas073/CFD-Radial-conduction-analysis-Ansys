@@ -14,7 +14,7 @@ Steady-State Heat Conduction | ANSYS Fluent 2026 R1
 
 ---
 
-## 📖 Repository Overview
+# 📖 Repository Overview
 
 This repository presents a **2D steady-state Computational Fluid Dynamics (CFD)** simulation of **radial heat conduction through a solid annular geometry** performed using **ANSYS Fluent 2026 R1**.
 
@@ -205,7 +205,7 @@ A structured mesh also ensures a more uniform element distribution throughout th
 
 ---
 
-# 📈 Mesh Quality Assessment
+## 📈 Mesh Quality Assessment
 
 The accuracy of any CFD simulation depends strongly on mesh quality. Poor-quality elements can introduce excessive numerical diffusion, reduce solution accuracy, and negatively affect convergence behaviour.
 
@@ -245,7 +245,7 @@ The simulation was performed using a **2D pressure-based steady-state solver** i
 
 ---
 
-# 🌡️ Material Properties
+## 🌡️ Material Properties
 
 **Material:** Structural Steel
 
@@ -257,7 +257,7 @@ The simulation was performed using a **2D pressure-based steady-state solver** i
 
 ---
 
-# 🚪 Boundary Conditions
+## 🚪 Boundary Conditions
 
 A constant temperature difference was imposed across the annular solid to establish radial heat flow.
 
@@ -268,7 +268,7 @@ A constant temperature difference was imposed across the annular solid to establ
 
 ---
 
-# 🧮 Numerical Methods
+## 🧮 Numerical Methods
 
 | Parameter | Method |
 |-----------|--------|
@@ -336,7 +336,7 @@ The simulation successfully captured the steady-state radial heat conduction thr
 
 ---
 
-# 🧠 Engineering Discussion
+## 🧠 Engineering Discussion
 
 The simulation demonstrates the fundamental principles of **steady-state conduction** in cylindrical coordinates. Unlike planar conduction, radial heat transfer occurs through an area that varies with radius, producing a non-linear temperature distribution.
 
