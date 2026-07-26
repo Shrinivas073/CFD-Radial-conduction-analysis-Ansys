@@ -100,7 +100,7 @@ This project serves as a foundational exercise in **heat transfer modelling, num
 
 <p align="center">
 
-<img src="Images/Project_Cover.png" width="900">
+<img src="Screenshot 2026-05-27 212340" width="900">
 
 </p>
 
