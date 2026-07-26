@@ -38,8 +38,6 @@ This project serves as a foundational exercise in **heat transfer modelling, num
 
 - [🎯 Project Objectives](#-project-objectives)
 
-- [📚 Engineering Background](#-engineering-background)
-
 - [🌡️ Governing Physics](#️-governing-physics)
 
 - [🧩 Geometry Creation](#-geometry-creation)
@@ -77,15 +75,7 @@ This project serves as a foundational exercise in **heat transfer modelling, num
 
 ✔️ ANSYS Fluent 2026 R1
 
-✔️ Structured Quadrilateral Mesh
-
-✔️ Second-Order Numerical Scheme
-
 ✔️ Engineering Interpretation of Temperature Distribution
-
-✔️ Professional CFD Documentation
-
-✔️ Recruiter-Friendly Project Presentation
 
 ---
 
@@ -95,7 +85,7 @@ This project serves as a foundational exercise in **heat transfer modelling, num
 
 <p align="center">
 
-<img src="Screenshot 2026-05-27 212340" width="900">
+<img src="Gallery/Graph.png" width="900">
 
 </p>
 
@@ -115,10 +105,6 @@ The primary objectives of this study are:
 
 - Evaluate the influence of mesh quality on numerical accuracy and solution stability.
 
-- Gain practical experience in geometry creation, meshing, solver configuration, and post-processing using **ANSYS Fluent 2026 R1**.
-
-- Compare numerical results with the expected physical behaviour of radial heat conduction.
-
 ---
 
 # 📚 Engineering Background
@@ -129,10 +115,8 @@ One of the most common conduction problems encountered in engineering involves *
 
 Understanding this behaviour is essential in the design and thermal analysis of numerous engineering systems, including:
 
-- Heat exchangers
-- Steam and process pipelines
+- Heat exchanger
 - Pressure vessels
-- Boiler tubes
 - Thermal insulation systems
 - Nuclear reactor components
 - Rotating machinery
@@ -154,10 +138,6 @@ The simulation is based on the following assumptions:
 - Steady-state conditions
 - Pure solid conduction
 - No internal heat generation
-- Constant thermophysical properties
-- Homogeneous isotropic material
-- Negligible thermal radiation
-- Negligible convection within the solid domain
 
 Under these assumptions, thermal energy is transferred exclusively by molecular conduction from the hotter inner surface toward the cooler outer surface until thermal equilibrium is established.
 
@@ -166,22 +146,6 @@ The governing physical mechanism is described by **Fourier's Law of Heat Conduct
 As the simulation reaches convergence, the resulting temperature field represents the steady-state solution in which the rate of heat entering the annulus equals the rate of heat leaving it, satisfying the principle of conservation of energy throughout the computational domain.
 
 ---
-
-## 💡 Engineering Significance
-
-Although this problem appears mathematically simple, it forms the foundation for understanding far more complex thermal systems encountered in engineering practice.
-
-The concepts explored in this project are directly applicable to:
-
-- Thermal management of rotating machinery
-- Heat exchanger tube analysis
-- Insulation design
-- High-temperature pressure vessels
-- Nuclear fuel cladding
-- Aerospace thermal protection systems
-- Industrial piping networks
-
-Mastering radial heat conduction through CFD provides a strong foundation for advanced simulations involving conjugate heat transfer, transient thermal analysis, and coupled fluid–thermal interactions.
 
 
 # 🧩 Geometry Creation
@@ -209,7 +173,7 @@ By adopting a two-dimensional planar model, the computational cost is significan
 
 <p align="center">
 
-<img src="Images/Geometry.png" width="700">
+<img src="Gallery/Geometry.png" width="700">
 
 </p>
 
@@ -244,7 +208,7 @@ A structured mesh also ensures a more uniform element distribution throughout th
 
 <p align="center">
 
-<img src="Images/Mesh.png" width="700">
+<img src="Gallery/Mesh.png" width="700">
 
 </p>
 
@@ -272,14 +236,6 @@ The minimum orthogonal quality of **0.999** indicates an exceptionally well-cons
 These quality indicators provide confidence that the numerical solution primarily reflects the governing physics rather than mesh-induced errors.
 
 ---
-
-# 💡 Engineering Perspective
-
-Mesh generation is far more than simply dividing a geometry into smaller elements—it establishes the computational foundation upon which the governing equations are solved.
-
-A high-quality mesh minimizes numerical errors, enhances convergence, and ensures that temperature gradients are captured with greater fidelity. For steady-state conduction problems such as this, a structured quadrilateral mesh offers an effective balance between computational efficiency and solution accuracy.
-
-Consequently, the mesh developed for this study provides a robust framework for accurately predicting radial temperature distribution within the annular solid.
 
 
 # ⚙️ Solver Setup
@@ -352,7 +308,7 @@ The solution converged smoothly with stable residual behavior.
 
 <p align="center">
 
-<img src="Images/Residuals.png" width="750">
+<img src="Gallery/Residuals.png" width="750">
 
 </p>
 
@@ -375,7 +331,7 @@ The simulation successfully captured the steady-state radial heat conduction thr
 
 <p align="center">
 
-<img src="Screenshot 2026-05-26 213909" width="750">
+<img src="Gallery/Temperature.png" width="750">
 
 </p>
 
