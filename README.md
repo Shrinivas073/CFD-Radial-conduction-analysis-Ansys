@@ -164,7 +164,7 @@ By adopting a two-dimensional planar model, the computational cost is significan
 
 </p>
 
-> **Figure 1:** Computational geometry representing the annular solid domain used for radial heat conduction analysis.
+> **Figure 1:** Computational geometry representing the 2D annular solid domain used for radial heat conduction analysis.
 
 ---
 
@@ -263,6 +263,18 @@ A constant temperature difference was imposed across the annular solid to establ
 |----------|-----------|
 | Inner Wall | 400 K |
 | Outer Wall | 300 K |
+
+## 📷 Boundary Conditions
+
+<p align="center">
+
+<img src="boundaries.png" width="700">
+
+</p>
+
+> **Figure 2:** Bounday conditions applied for the 2D Annular Geometry.
+
+
 
 ---
 
