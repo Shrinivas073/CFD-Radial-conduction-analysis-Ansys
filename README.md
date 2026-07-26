@@ -37,7 +37,7 @@ This project serves as a foundational exercise in **heat transfer modelling, num
 
 <p align="center">
 
-<img src="graph.png" width="800">
+<img src="Temperature contour.png" width="800">
 
 </p>
 
@@ -160,7 +160,7 @@ By adopting a two-dimensional planar model, the computational cost is significan
 
 <p align="center">
 
-<img src="Gallery/Geometry.png" width="700">
+<img src="Geometry.png" width="700">
 
 </p>
 
@@ -195,7 +195,7 @@ A structured mesh also ensures a more uniform element distribution throughout th
 
 <p align="center">
 
-<img src="Gallery/Mesh.png" width="700">
+<img src="Mesh.png" width="700">
 
 </p>
 
@@ -295,7 +295,7 @@ The solution converged smoothly with stable residual behavior.
 
 <p align="center">
 
-<img src="Gallery/Residuals.png" width="750">
+<img src="Residuals.png" width="750">
 
 </p>
 
@@ -318,7 +318,7 @@ The simulation successfully captured the steady-state radial heat conduction thr
 
 <p align="center">
 
-<img src="Gallery/Temperature.png" width="750">
+<img src="Temperature contour.png" width="750">
 
 </p>
 
