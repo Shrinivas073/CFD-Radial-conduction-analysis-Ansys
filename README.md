@@ -66,18 +66,6 @@ This project serves as a foundational exercise in **heat transfer modelling, num
 
 
 ---
-/
-
-
-# ⭐ Repository Highlights
-
-✔️ 2D Steady-State Heat Conduction
-
-✔️ Radial Heat Transfer through an Annular Solid
-
-✔️ ANSYS Fluent 2026 R1
-
-✔️ Engineering Interpretation of Temperature Distribution
 
 ---
 
