@@ -39,7 +39,7 @@ This project serves as a foundational exercise in **heat transfer modelling, num
 
 <p align="center">
 
-<img src="Gallery/Graph.png" width="900">
+<img src="graph.png" width="900">
 
 </p>
 
