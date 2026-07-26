@@ -377,7 +377,149 @@ The solution converged smoothly with stable residual behavior.
 A prescribed temperature difference between the inner and outer walls creates the thermal gradient that drives radial heat conduction. Once the energy residual converges, the computed temperature field represents the steady-state thermal equilibrium within the annular domain.
 
 
+# 📊 Results & Discussion
 
+The simulation successfully captured the steady-state radial heat conduction through the annular solid domain. The temperature field exhibited the expected radial distribution, with thermal energy flowing continuously from the heated inner wall toward the cooler outer wall.
+
+---
+
+## 📷 Temperature Contours
+
+<p align="center">
+
+<img src="Images/Temperature_Contour.png" width="750">
+
+</p>
+
+> **Figure 4:** Temperature distribution across the annular solid.
+
+---
+
+## 🔍 Key Observations
+
+- Maximum temperature occurred at the inner heated wall (400 K).
+- Temperature decreased progressively toward the outer wall (300 K).
+- Isotherms remained concentric, indicating purely radial heat conduction.
+- No localized thermal irregularities were observed.
+
+---
+
+# 🧠 Engineering Discussion
+
+The simulation demonstrates the fundamental principles of **steady-state conduction** in cylindrical coordinates. Unlike planar conduction, radial heat transfer occurs through an area that varies with radius, producing a non-linear temperature distribution.
+
+The smooth temperature contours and stable convergence indicate that the numerical solution accurately represents the expected physical behaviour of radial heat conduction.
+
+---
+
+# ✅ Validation
+
+The numerical results are consistent with the theoretical behaviour of radial heat conduction through a hollow cylinder.
+
+| Validation Parameter | Status |
+|----------------------|--------|
+| Radial Temperature Distribution | ✅ Verified |
+| Heat Flow Direction | ✅ Correct |
+| Steady-State Behaviour | ✅ Achieved |
+| Numerical Stability | ✅ Stable |
+
+---
+
+# 💡 Key Learnings
+
+- Application of CFD to solid heat transfer problems.
+- Importance of high-quality structured meshes.
+- Effect of prescribed thermal boundary conditions.
+- Visualization of temperature gradients using CFD.
+- Interpretation of numerical results through engineering principles.
+
+---
+
+# 🛠️ Skills Demonstrated
+
+- Computational Fluid Dynamics (CFD)
+- ANSYS Fluent 2026 R1
+- ANSYS Meshing
+- DesignModeler
+- Heat Transfer Analysis
+- Structured Mesh Generation
+- Solver Configuration
+- Boundary Condition Setup
+- Post-Processing
+- Engineering Interpretation
+
+---
+
+# 📂 Repository Structure
+
+```text
+CFD-Radial-Heat-Transfer/
+│
+├── README.md
+├── LICENSE
+├── .gitignore
+│
+├── Images/
+│   ├── Project_Cover.png
+│   ├── Geometry.png
+│   ├── Mesh.png
+│   ├── Temperature_Contour.png
+│   └── Residuals.png
+│
+├── ANSYS_Files/
+│   ├── Geometry.agdb
+│   ├── Mesh.msh
+│   ├── Radial_Heat_Transfer.cas.h5
+│   └── Radial_Heat_Transfer.dat.h5
+│
+└── Documentation/
+    └── Project_Report.pdf
+```
+
+---
+
+# 🚀 Future Improvements
+
+Potential extensions of this project include:
+
+- Transient heat conduction
+- Conjugate heat transfer
+- Internal heat generation
+- Temperature-dependent material properties
+- Mesh independence study
+- Three-dimensional analysis
+
+---
+
+# 📚 References
+
+1. Incropera, F.P., *Fundamentals of Heat and Mass Transfer*.
+2. ANSYS Fluent Theory Guide.
+3. Çengel, Y.A., *Heat Transfer: A Practical Approach*.
+
+---
+
+# 📄 License
+
+This project is licensed under the **MIT License**. Feel free to use this repository for educational and learning purposes with appropriate attribution.
+
+---
+
+# 👨‍💻 Author
+
+**Shrinivas**
+
+Mechanical Engineer | Aspiring CFD Engineer
+
+Passionate about **Computational Fluid Dynamics, Heat Transfer, Fluid Mechanics, and Aerodynamics**, with a focus on developing simulation-driven engineering solutions through ANSYS Fluent.
+
+---
+
+## ⭐ Support
+
+If you found this repository useful or informative, consider giving it a **⭐ Star**. Your support motivates me to continue documenting and sharing my CFD learning journey.
+
+---
 
 
 
