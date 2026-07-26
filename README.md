@@ -10,8 +10,6 @@ Steady-State Heat Conduction | ANSYS Fluent 2026 R1
 
 ![Steady State](https://img.shields.io/badge/Analysis-Steady%20State-green?style=for-the-badge)
 
-![License](https://img.shields.io/badge/License-MIT-success?style=for-the-badge)
-
 </p>
 
 ---
