@@ -280,7 +280,7 @@ A constant temperature difference was imposed across the annular solid to establ
 
 </p>
 
-> **Figure 2:** Bounday conditions applied for the 2D Annular Geometry.
+> **Figure 3:** Boundary conditions applied for the 2D Annular Geometry.
 
 
 
@@ -319,7 +319,7 @@ The solution converged smoothly with stable residual behavior.
 
 </p>
 
-> **Figure 3:** Residual history showing stable convergence of the energy equation.
+> **Figure 4:** Residual history showing stable convergence of the energy equation.
 
 ---
 
@@ -342,7 +342,7 @@ The simulation successfully captured the steady-state radial heat conduction thr
 
 </p>
 
-> **Figure 4:** Graphical Representation of Temperature Vs Radial Wall Thickness.
+> **Figure 5:** Graphical Representation of Temperature Vs Radial Wall Thickness.
 
 ---
 
