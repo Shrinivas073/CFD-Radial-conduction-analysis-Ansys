@@ -35,11 +35,9 @@ This project serves as a foundational exercise in **heat transfer modelling, num
 
 ## 📷 Repository Preview
 
-> **Replace the image below with your final project cover image or temperature contour.**
-
 <p align="center">
 
-<img src="graph.png" width="900">
+<img src="graph.png" width="800">
 
 </p>
 
