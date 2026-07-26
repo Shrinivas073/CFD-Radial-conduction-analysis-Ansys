@@ -402,7 +402,7 @@ Potential extensions of this project include:
 
 **Shrinivas**
 
-Mechanical Engineer | Aspiring CFD Engineer
+Aspiring CFD Engineer | Mechanical Engineer
 
 Passionate about **Computational Fluid Dynamics, Heat Transfer, Fluid Mechanics, and Aerodynamics**, with a focus on developing simulation-driven engineering solutions through ANSYS Fluent.
 
@@ -410,7 +410,7 @@ Passionate about **Computational Fluid Dynamics, Heat Transfer, Fluid Mechanics,
 
 <p align="left">
 
-<a href="https://www.linkedin.com/in/shrinivas471/" target="blank">
+<a href="https://www.linkedin.com/in/shrinivas471/" target=_blank">
 <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
 
