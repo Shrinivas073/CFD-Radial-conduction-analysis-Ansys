@@ -294,7 +294,87 @@ A high-quality mesh minimizes numerical errors, enhances convergence, and ensure
 Consequently, the mesh developed for this study provides a robust framework for accurately predicting radial temperature distribution within the annular solid.
 
 
+# ⚙️ Solver Setup
 
+The simulation was performed using a **2D pressure-based steady-state solver** in **ANSYS Fluent 2026 R1** to analyze radial heat conduction through the annular solid domain.
+
+---
+
+## ⚙️ Solver Configuration
+
+| Setting | Configuration |
+|---------|---------------|
+| Solver Type | Pressure-Based |
+| Analysis | Steady-State |
+| Space | 2D |
+| Energy Equation | Enabled |
+| Time | Steady |
+
+---
+
+# 🌡️ Material Properties
+
+**Material:** Structural Steel
+
+| Property | Value |
+|---------|------:|
+| Density | 8030 kg/m³ |
+| Specific Heat | 502.48 J/kg·K |
+| Thermal Conductivity | 16.27 W/m·K |
+
+---
+
+# 🚪 Boundary Conditions
+
+A constant temperature difference was imposed across the annular solid to establish radial heat flow.
+
+| Boundary | Condition |
+|----------|-----------|
+| Inner Wall | 400 K |
+| Outer Wall | 300 K |
+
+---
+
+# 🧮 Numerical Methods
+
+| Parameter | Method |
+|-----------|--------|
+| Spatial Discretization | Second Order |
+| Solution Initialization | Hybrid Initialization |
+
+The second-order scheme improves numerical accuracy by reducing discretization errors in the computed temperature field.
+
+---
+
+# 📉 Convergence
+
+The solution converged smoothly with stable residual behavior.
+
+### Convergence Summary
+
+| Parameter | Status |
+|-----------|--------|
+| Energy Residual | Converged |
+| Iterations | 15 |
+| Solution Stability | Stable |
+
+---
+
+## 📷 Residual Plot
+
+<p align="center">
+
+<img src="Images/Residuals.png" width="750">
+
+</p>
+
+> **Figure 3:** Residual history showing stable convergence of the energy equation.
+
+---
+
+## 💡 Engineering Note
+
+A prescribed temperature difference between the inner and outer walls creates the thermal gradient that drives radial heat conduction. Once the energy residual converges, the computed temperature field represents the steady-state thermal equilibrium within the annular domain.
 
 
 
