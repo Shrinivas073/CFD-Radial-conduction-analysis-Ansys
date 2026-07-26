@@ -387,7 +387,7 @@ The simulation successfully captured the steady-state radial heat conduction thr
 
 <p align="center">
 
-<img src="Images/Temperature_Contour.png" width="750">
+<img src="Screenshot 2026-05-26 213909" width="750">
 
 </p>
 
@@ -399,7 +399,6 @@ The simulation successfully captured the steady-state radial heat conduction thr
 
 - Maximum temperature occurred at the inner heated wall (400 K).
 - Temperature decreased progressively toward the outer wall (300 K).
-- Isotherms remained concentric, indicating purely radial heat conduction.
 - No localized thermal irregularities were observed.
 
 ---
@@ -429,25 +428,7 @@ The numerical results are consistent with the theoretical behaviour of radial he
 
 - Application of CFD to solid heat transfer problems.
 - Importance of high-quality structured meshes.
-- Effect of prescribed thermal boundary conditions.
 - Visualization of temperature gradients using CFD.
-- Interpretation of numerical results through engineering principles.
-
----
-
-# 🛠️ Skills Demonstrated
-
-- Computational Fluid Dynamics (CFD)
-- ANSYS Fluent 2026 R1
-- ANSYS Meshing
-- DesignModeler
-- Heat Transfer Analysis
-- Structured Mesh Generation
-- Solver Configuration
-- Boundary Condition Setup
-- Post-Processing
-- Engineering Interpretation
-
 ---
 
 # 📂 Repository Structure
@@ -456,21 +437,14 @@ The numerical results are consistent with the theoretical behaviour of radial he
 CFD-Radial-Heat-Transfer/
 │
 ├── README.md
-├── LICENSE
 ├── .gitignore
 │
-├── Images/
+├── Gallery/
 │   ├── Project_Cover.png
 │   ├── Geometry.png
 │   ├── Mesh.png
 │   ├── Temperature_Contour.png
 │   └── Residuals.png
-│
-├── ANSYS_Files/
-│   ├── Geometry.agdb
-│   ├── Mesh.msh
-│   ├── Radial_Heat_Transfer.cas.h5
-│   └── Radial_Heat_Transfer.dat.h5
 │
 └── Documentation/
     └── Project_Report.pdf
@@ -488,20 +462,6 @@ Potential extensions of this project include:
 - Temperature-dependent material properties
 - Mesh independence study
 - Three-dimensional analysis
-
----
-
-# 📚 References
-
-1. Incropera, F.P., *Fundamentals of Heat and Mass Transfer*.
-2. ANSYS Fluent Theory Guide.
-3. Çengel, Y.A., *Heat Transfer: A Practical Approach*.
-
----
-
-# 📄 License
-
-This project is licensed under the **MIT License**. Feel free to use this repository for educational and learning purposes with appropriate attribution.
 
 ---
 
@@ -523,10 +483,3 @@ If you found this repository useful or informative, consider giving it a **⭐ S
 
 
 
-
-
-
-
-
-
-I welcome constructive feedback, discussions, and suggestions from the engineering community.
