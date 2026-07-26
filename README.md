@@ -135,7 +135,7 @@ As the simulation reaches convergence, the resulting temperature field represent
 ---
 
 
-# 🧩 Geometry Creation
+# 📐 Geometry Creation
 
 The computational model represents a **2D annular solid domain** designed to investigate steady-state radial heat conduction through a hollow cylindrical structure.
 
@@ -145,7 +145,7 @@ By adopting a two-dimensional planar model, the computational cost is significan
 
 ---
 
-## 📐 Geometry Specifications
+##  Geometry Specifications
 
 | Parameter | Value |
 |-----------|------:|
