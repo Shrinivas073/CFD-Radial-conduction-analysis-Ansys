@@ -64,10 +64,6 @@ This project serves as a foundational exercise in **heat transfer modelling, num
 
 - [⚙️ Solver Setup](#️-solver-setup)
 
-- [ Material Properties](#-material-properties)
-
-- [ Boundary Conditions](#-boundary-conditions)
-
 - [📉 Solution & Convergence](#-solution--convergence)
 
 - [📊 Results & Post-Processing](#-results--post-processing)
