@@ -40,7 +40,7 @@ This project serves as a foundational exercise in **heat transfer modelling, num
 ---
 
 
-## 📷 Repository Preview
+##  Repository Preview
 
 <p align="center">
 
