@@ -346,8 +346,7 @@ The simulation successfully captured the steady-state radial heat conduction thr
 
 ---
 
-#
-🧠 Engineering Discussion
+# 🧠 Engineering Discussion
 
 The simulation demonstrates the fundamental principles of **steady-state conduction** in cylindrical coordinates. Unlike planar conduction, radial heat transfer occurs through an area that varies with radius, producing a non-linear temperature distribution.
 
