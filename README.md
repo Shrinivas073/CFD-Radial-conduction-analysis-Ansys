@@ -389,38 +389,40 @@ Potential extensions of this project include:
 
 ## Shrinivas
 
-Aspiring CFD Engineer | Mechanical Engineer
+**Mechanical Engineer | Aspiring CFD Engineer**
 
-Passionate about **Computational Fluid Dynamics, Heat Transfer, Fluid Mechanics, and Aerodynamics**, with a focus on developing simulation-driven engineering solutions through ANSYS Fluent.
+Passionate about **Computational Fluid Dynamics (CFD), Fluid Mechanics, Heat Transfer, and Aerodynamics**, with a focus on developing simulation-driven engineering solutions using ANSYS Fluent.
 
 ### 🌐 Connect with Me
 
 <p align="left">
 
-<a href="https://www.linkedin.com/in/shrinivas471/" target="_blank">
+<a href="https://www.linkedin.com/in/YOUR-LINKEDIN-USERNAME/" target="_blank">
 <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
 
-<a href="https://github.com/shrinivas073" target="_blank">
+<a href="https://github.com/YOUR-GITHUB-USERNAME" target="_blank">
 <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 
-<a href="https://www.notion.so/Aspiring-CFD-Engineer-Aerodynamics-ANSYS-Fluent-Fluid-Dynamics-Flow-Thermal-Analysis-Tur-398644a1903c8045bbc4e377269b809d?source=copy_link" target="_blank">
+<a href="https://www.notion.so/YOUR-NOTION-PAGE" target="_blank">
 <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white"/>
 </a>
 
 </p>
 
+📫 **Email:** shrinivas471556@gmail.com
+
 ---
 
-<p align="center">
+<div align="center">
 
-## ⭐ Support
+### ⭐ If you found this project useful, consider giving it a Star!
 
-If you found this repository useful or informative, consider giving it a **⭐ Star**. Your support motivates me to continue documenting and sharing my CFD learning journey.
+It motivates me to continue documenting and sharing my CFD learning journey.
 
-</p>
----
+**Let's connect and grow together in the field of Computational Fluid Dynamics. 🚀**
 
+</div>
 
 
