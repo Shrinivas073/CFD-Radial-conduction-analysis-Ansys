@@ -64,9 +64,9 @@ This project serves as a foundational exercise in **heat transfer modelling, num
 
 - [⚙️ Solver Setup](#️-solver-setup)
 
-- [🧱 Material Properties](#-material-properties)
+- [ Material Properties](#-material-properties)
 
-- [🚪 Boundary Conditions](#-boundary-conditions)
+- [ Boundary Conditions](#-boundary-conditions)
 
 - [📉 Solution & Convergence](#-solution--convergence)
 
@@ -77,8 +77,6 @@ This project serves as a foundational exercise in **heat transfer modelling, num
 - [✅ Validation](#-validation)
 
 - [💡 Key Learnings](#-key-learnings)
-
-- [📂 Repository Structure](#-repository-structure)
 
 - [🚀 Future Improvements](#-future-improvements)
 
@@ -142,7 +140,7 @@ As the simulation reaches convergence, the resulting temperature field represent
 ---
 
 
-# 📐 Geometry Creation
+# 🧩 Geometry Creation
 
 The computational model represents a **2D annular solid domain** designed to investigate steady-state radial heat conduction through a hollow cylindrical structure.
 
@@ -163,7 +161,7 @@ By adopting a two-dimensional planar model, the computational cost is significan
 
 ---
 
-## 📷 Geometry
+##  Geometry
 
 <p align="center">
 
@@ -185,7 +183,7 @@ A structured mesh also ensures a more uniform element distribution throughout th
 
 ---
 
-## 📊 Mesh Specifications
+## Mesh Specifications
 
 | Parameter | Value |
 |-----------|------:|
@@ -198,7 +196,7 @@ A structured mesh also ensures a more uniform element distribution throughout th
 
 ---
 
-## 📷 Mesh
+## Mesh
 
 <p align="center">
 
@@ -210,7 +208,7 @@ A structured mesh also ensures a more uniform element distribution throughout th
 
 ---
 
-## 📈 Mesh Quality Assessment
+## Mesh Quality Assessment
 
 The accuracy of any CFD simulation depends strongly on mesh quality. Poor-quality elements can introduce excessive numerical diffusion, reduce solution accuracy, and negatively affect convergence behaviour.
 
@@ -238,7 +236,7 @@ The simulation was performed using a **2D pressure-based steady-state solver** i
 
 ---
 
-## ⚙️ Solver Configuration
+## Solver Configuration
 
 | Setting | Configuration |
 |---------|---------------|
@@ -250,7 +248,7 @@ The simulation was performed using a **2D pressure-based steady-state solver** i
 
 ---
 
-## 🌡️ Material Properties
+## Material Properties
 
 **Material:** Structural Steel
 
@@ -262,7 +260,7 @@ The simulation was performed using a **2D pressure-based steady-state solver** i
 
 ---
 
-## 🚪 Boundary Conditions
+## Boundary Conditions
 
 A constant temperature difference was imposed across the annular solid to establish radial heat flow.
 
@@ -271,7 +269,7 @@ A constant temperature difference was imposed across the annular solid to establ
 | Inner Wall | 400 K |
 | Outer Wall | 300 K |
 
-## 📷 Boundary Conditions
+## Boundary Conditions
 
 <p align="center">
 
@@ -282,10 +280,9 @@ A constant temperature difference was imposed across the annular solid to establ
 > **Figure 3:** Boundary conditions applied for the 2D Annular Geometry.
 
 
-
 ---
 
-## 🧮 Numerical Methods
+## Numerical Methods
 
 | Parameter | Method |
 |-----------|--------|
@@ -310,7 +307,7 @@ The solution converged smoothly with stable residual behavior.
 
 ---
 
-## 📷 Residual Plot
+## Residual Plot
 
 <p align="center">
 
@@ -322,10 +319,6 @@ The solution converged smoothly with stable residual behavior.
 
 ---
 
-## 💡 Engineering Note
-
-A prescribed temperature difference between the inner and outer walls creates the thermal gradient that drives radial heat conduction. Once the energy residual converges, the computed temperature field represents the steady-state thermal equilibrium within the annular domain.
-
 
 # 📊 Results & Discussion
 
@@ -333,7 +326,7 @@ The simulation successfully captured the steady-state radial heat conduction thr
 
 ---
 
-## 📷 Temperature Vs Radial Wall Thickness
+##  Temperature Vs Radial Wall Thickness
 
 <p align="center">
 
@@ -353,7 +346,8 @@ The simulation successfully captured the steady-state radial heat conduction thr
 
 ---
 
-## 🧠 Engineering Discussion
+#
+🧠 Engineering Discussion
 
 The simulation demonstrates the fundamental principles of **steady-state conduction** in cylindrical coordinates. Unlike planar conduction, radial heat transfer occurs through an area that varies with radius, producing a non-linear temperature distribution.
 
