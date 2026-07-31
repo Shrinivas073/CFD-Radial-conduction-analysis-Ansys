@@ -397,15 +397,15 @@ Passionate about **Computational Fluid Dynamics (CFD), Fluid Mechanics, Heat Tra
 
 <p align="left">
 
-<a href="https://www.linkedin.com/in/shrinivas073/" target="_blank">
+<a href="https://www.linkedin.com/in/shrinivas471" target="_blank">
 <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
 
-<a href="https://github.com/Shrinivas471" target="_blank">
+<a href="https://github.com/Shrinivas073" target="_blank">
 <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 
-<a href="https://shrinivas07.notion.site/Aspiring-CFD-Engineer-Aerodynamics-ANSYS-Fluent-Fluid-Dynamics-Flow-Thermal-Analysis-Tur-398644a1903c8045bbc4e377269b809d" target="_blank">
+<a href="https://https://app.notion.com/p/shrinivas07/Aspiring-CFD-Engineer-Aerodynamics-ANSYS-Fluent-Fluid-Dynamics-Flow-Thermal-Analysis-Tur-398644a1903c8045bbc4e377269b809d?pvs=9" target="_blank">
 <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white"/>
 </a>
 
