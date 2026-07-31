@@ -387,7 +387,7 @@ Potential extensions of this project include:
 
 # 👨‍💻 Author
 
-**Shrinivas**
+## Shrinivas
 
 Aspiring CFD Engineer | Mechanical Engineer
 
@@ -413,10 +413,13 @@ Passionate about **Computational Fluid Dynamics, Heat Transfer, Fluid Mechanics,
 
 ---
 
+<p align="center">
+
 ## ⭐ Support
 
 If you found this repository useful or informative, consider giving it a **⭐ Star**. Your support motivates me to continue documenting and sharing my CFD learning journey.
 
+</p>
 ---
 
 
